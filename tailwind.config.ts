@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'md': '768px', // Tablet começa aqui
+        'lg': '768px', // Desktop começa no mesmo ponto que tablet - mesma experiência
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
