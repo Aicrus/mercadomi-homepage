@@ -1,6 +1,6 @@
 export const siteDetails = {
     siteName: 'MercadoMi',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://mercadomi-homepage.vercel.app/',
     metadata: {
         title: 'MercadoMi - Connect with Trusted Home Improvement Professionals',
         description: 'MercadoMi connects homeowners with verified professionals for renovation, repair, and maintenance services. Manage your projects from start to finish.',
